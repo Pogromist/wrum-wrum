@@ -1,3 +1,3 @@
 # WrumWrum
 
-![demo](https://user-images.githubusercontent.com/18381104/78910451-abd40e00-7a8d-11ea-8db5-ea7ac7df43fa.gif)
+![demo_wrum_wrum](https://user-images.githubusercontent.com/18381104/78928065-a6d08800-7aa8-11ea-9d86-58efcb566a7c.gif)
