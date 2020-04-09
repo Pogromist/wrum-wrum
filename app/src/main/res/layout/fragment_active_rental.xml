@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="vertical"
+        android:id="@+id/timer_and_buttons">
+
+
+        <TextView
+            android:id="@+id/timer_label"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="64dp"
+            android:gravity="center"
+            android:text="@string/travel_time"
+            android:textSize="20sp" />
+
+        <Chronometer
+            android:id="@+id/chrono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:textSize="50sp" />
+
+        <Button
+            android:id="@+id/btn_unlock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/bg_button_green"
+            android:padding="10dp"
+            android:layout_gravity="center"
+            android:text="@string/unlock"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/btn_finish_ride"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/bg_button_green"
+            android:padding="10dp"
+            android:text="@string/finish"
+            android:textColor="@color/white"
+            android:textSize="30sp" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_shadow_relative_bg"
+        android:gravity="bottom"
+        android:id="@+id/info">
+
+        <ImageView
+            android:id="@+id/scooter_img"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:contentDescription="@string/some_scooter"
+            app:srcCompat="@drawable/ic_scooter_green_52" />
+
+        <TextView
+            android:id="@+id/scooter_num"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/scooter_img"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:text="@string/scooter_number" />
+
+        <TextView
+            android:id="@+id/scooter_tariff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scooter_num"
+            android:layout_toEndOf="@id/scooter_img"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:text="Tariff title" />
+
+        <TextView
+            android:id="@+id/tax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scooter_tariff"
+            android:layout_toEndOf="@id/scooter_img"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:text="N $" />
+
+        <TextView
+            android:id="@+id/tariff_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tax"
+            android:layout_toEndOf="@id/scooter_img"
+            android:gravity="center_horizontal"
+            android:textSize="20sp"
+            android:text="per N time" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layout_progress"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible"
+        android:background="@color/transparent_black"
+        android:clickable="true">
+
+
+        <ProgressBar
+            android:id="@+id/circle_progress"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:theme="@style/ProgressBarTheme"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

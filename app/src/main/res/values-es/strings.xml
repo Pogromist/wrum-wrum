@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WrumWrum</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="maps">Mapas</string>
+    <string name="wallet">Billetera</string>
+    <string name="history">Historia</string>
+    <string name="rating">Clasificación</string>
+
+    <string name="ok">Hecho</string>
+    <string name="action_settings">Configuraciones</string>
+    <string name="login_failed">Error de inicio de sesion</string>
+    <string name="no_account_yet">¿No tienes cuenta aún? Crea uno</string>
+    <string name="email">Email</string>
+    <string name="login">Iniciar sesión</string>
+    <string name="password">Contraseña</string>
+    <string name="create_account">Crear una cuenta</string>
+    <string name="confirm_password">Confirmar contraseña</string>
+    <string name="already_a_member_login">¿Ya eres usuario? Iniciar sesión</string>
+    <string name="activate">Activar</string>
+    <string name="sms_code">Código SMS</string>
+    <string name="balance">Equilibrar</string>
+    <string name="log_out">CERRAR SESIÓN</string>
+    <string name="top_up">COMPLETAR</string>
+    <string name="amount">Cantidad</string>
+    <string name="card_number">Número de tarjeta</string>
+    <string name="due_date">Fecha de vencimiento</string>
+    <string name="cvv_cvc">CVV/CVC</string>
+    <string name="withdraw">RETIRAR</string>
+    <string name="travel_time">Tiempo en viaje:</string>
+    <string name="unlock">Desbloquear scooter</string>
+    <string name="finish">Terminar el alquiler</string>
+    <string name="withdrawal_commission_info">¡ADVERTENCIA! La retirada se realiza con una 5% comisión.</string>
+    <string name="tariffs_warning">¡ADVERTENCIA! Cuando finalice la tarifa elegida, su pago cambiará al modo de pago posterior.</string>
+    <string name="activation">Enviamos el código de activación a su correo electrónico</string>
+    <string name="finish_rent_title">¡Tu paseo ha terminado!</string>
+    <string name="finish_rent_time">Tiempo total en viaje:</string>
+    <string name="finish_rent_price">Precio total:</string>
+    <string name="company_logo">Logo de la compañía</string>
+    <string name="choose_scooter">Scooter #X</string>
+    <string name="fuel_level">Nivel de combustible</string>
+    <string name="coordinates">Coordenadas</string>
+    <string name="some_scooter">Algún scooter</string>
+    <string name="scooter_number">Número de scooter</string>
+    <string name="getting_balance">Conseguir el equilibrio ...</string>
+    <string name="withdrawal">Retirada</string>
+    <string name="update_balance">Actualizar saldo</string>
+    <string name="_00_00_00">00:00:00</string>
+    <string name="_0">0 $</string>
+    <string name="time_of_reservation">Tiempo restante de reserva:</string>
+</resources>

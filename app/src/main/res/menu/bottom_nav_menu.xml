@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_profile"
+        android:enabled="true"
+        android:icon="@drawable/ic_account_balance_wallet_black_24dp"
+        android:title="@string/wallet"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_maps"
+        android:enabled="true"
+        android:icon="@drawable/ic_map_white_24dp"
+        android:title="@string/maps"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_history"
+        android:enabled="true"
+        android:icon="@drawable/ic_history_white_24dp"
+        android:title="@string/history"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_rating"
+        android:enabled="true"
+        android:icon="@drawable/ic_stars_white_24dp"
+        android:title="@string/rating"
+        app:showAsAction="ifRoom" />
+</menu>
