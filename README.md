@@ -1,3 +1,2 @@
 # WrumWrum
 
-![](gifgif.gif)
